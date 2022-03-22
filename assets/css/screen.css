@@ -14,11 +14,12 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header:not(nav) {
+header {
     background-color: aqua;
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 8vw;
+    height:auto;
 }
 
 aside {
@@ -69,18 +70,20 @@ header p {
 
 nav {
     margin-top: 1em;
-    display: none;
+    display: flex;
     flex-direction: column;
 }
 
 header a {
-    padding-left: 25px;
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 1.25em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-left: 25px;
+    margin-top: 0.5em;
+    background-color: lightgray;
 }
 
 header a:hover {
@@ -160,6 +163,17 @@ button img {
     margin-left: 5.88%;
 }
 
+@media screen and (min-width: 500px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    header a {
+        padding-left: 0;
+        background-color: transparent;
+    }
+}
 
 @media screen and (min-width: 730px) { 
     
@@ -189,13 +203,20 @@ button img {
     }
 
     nav {
-        display: flex;
+        flex-direction: column;
+        padding-left: 0;
     }
 
     header p {
         margin-left: 25px;
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    header a {
+        font-size: 1.25em;
+        padding-left: 25px;
+        background-color:transparent;
     }
 
     h1 {
