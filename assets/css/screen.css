@@ -171,7 +171,7 @@ button img {
 
     header a {
         padding-left: 0;
-        background-color: transparent;
+        background-color: aqua;
     }
 }
 
@@ -216,7 +216,6 @@ button img {
     header a {
         font-size: 1.25em;
         padding-left: 25px;
-        background-color:transparent;
     }
 
     h1 {
