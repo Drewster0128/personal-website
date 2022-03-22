@@ -36,8 +36,11 @@ main {
 }
 
 #about-me,
-#skills {
-    max-width: 816px;
+#skills,
+#projects,
+#work-experience {
+    width: 100%;
+    max-width: 900px;
     background-color: white;
     height: 100vh;
 }
@@ -81,7 +84,7 @@ header a {
 }
 
 header a:hover {
-    background-color: gray;
+    background-color: white;
 }
 
 h2 {
@@ -91,10 +94,27 @@ h2 {
     margin-left: 5.88%;
 }
 
+h3 {
+    font-size: 1.5em;
+    margin-left: 5.88%;
+    text-decoration: underline;
+}
+
 #about-me p {
     margin-left: 5.88%;
     margin-right: 5.88%;
     padding-bottom: 10px;
+}
+
+#skills li,
+#proxmox li,
+#arcade li,
+#personal-website li,
+#jewel li {
+    margin-left: 5.88%;
+    margin-right: 5.88%;
+    padding-bottom: 0.5em;
+    list-style-type: circle;
 }
 
 footer {
@@ -128,6 +148,16 @@ button img {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+#skills ul,
+#proxmox ul,
+#arcade ul,
+#personal-website ul,
+#jewel ul {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 5.88%;
 }
 
 
