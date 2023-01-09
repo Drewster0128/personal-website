@@ -113,7 +113,8 @@ h3 {
 #proxmox li,
 #arcade li,
 #personal-website li,
-#jewel li {
+#jewel li,
+#bank-program li {
     margin-left: 5.88%;
     margin-right: 5.88%;
     padding-bottom: 0.5em;
@@ -157,7 +158,8 @@ button img {
 #proxmox ul,
 #arcade ul,
 #personal-website ul,
-#jewel ul {
+#jewel ul,
+#bank-program ul {
     margin-top: 0.5em;
     margin-bottom: 1em;
     margin-left: 5.88%;
