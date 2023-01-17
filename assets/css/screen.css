@@ -12,6 +12,12 @@ html {
     font-size: 16px;
     line-height: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height:fit-content;
+}
+
+body {
+    background-color: white;
+    height: fit-content;
 }
 
 header {
@@ -19,16 +25,12 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height:auto;
+    min-height: 100%;
 }
 
 aside {
     display: flex;
     justify-content: center;
-}
-
-body {
-    background-color: white;
 }
 
 main {
@@ -43,7 +45,8 @@ main {
     width: 100%;
     max-width: 900px;
     background-color: white;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
 }
 
 h1 {
@@ -114,7 +117,8 @@ h3 {
 #arcade li,
 #personal-website li,
 #jewel li,
-#bank-program li {
+#bank-program li,
+#ticket-system li {
     margin-left: 5.88%;
     margin-right: 5.88%;
     padding-bottom: 0.5em;
@@ -159,11 +163,13 @@ button img {
 #arcade ul,
 #personal-website ul,
 #jewel ul,
-#bank-program ul {
+#bank-program ul,
+#ticket-system ul {
     margin-top: 0.5em;
     margin-bottom: 1em;
     margin-left: 5.88%;
 }
+
 
 @media screen and (min-width: 500px) {
     nav {
@@ -187,7 +193,7 @@ button img {
         position: absolute;
         background-color: aqua;
         width: 20%;
-        height: 100vh;
+        height: 100%;
         visibility: visible;
         display: block;
     }
