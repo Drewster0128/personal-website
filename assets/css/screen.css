@@ -118,7 +118,8 @@ h3 {
 #personal-website li,
 #jewel li,
 #bank-program li,
-#ticket-system li {
+#ticket-system li,
+#clausen li {
     margin-left: 5.88%;
     margin-right: 5.88%;
     padding-bottom: 0.5em;
@@ -164,7 +165,8 @@ button img {
 #personal-website ul,
 #jewel ul,
 #bank-program ul,
-#ticket-system ul {
+#ticket-system ul,
+#clausen ul {
     margin-top: 0.5em;
     margin-bottom: 1em;
     margin-left: 5.88%;
